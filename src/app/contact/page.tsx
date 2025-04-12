@@ -41,7 +41,7 @@ export default function ContactPage() {
               onChange={handleChange}
               className="w-full border border-orange-300 px-4 py-3 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500"
               required
-              placeholder="John Doe"
+              placeholder="BuildWise"
             />
           </div>
 
@@ -54,7 +54,7 @@ export default function ContactPage() {
               onChange={handleChange}
               className="w-full border border-orange-300 px-4 py-3 rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500"
               required
-              placeholder="john@example.com"
+              placeholder="abc@example.com"
             />
           </div>
 
@@ -79,8 +79,6 @@ export default function ContactPage() {
             </button>
           </div>
         </form>
-
-        {/* Social Icons */}
         <div className="mt-10 border-t pt-6 text-center">
           <p className="text-gray-500 mb-3">Follow us on</p>
           <div className="flex justify-center space-x-6 text-orange-600 text-2xl">

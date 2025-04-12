@@ -47,7 +47,7 @@ export const Navbar = () => {
           <Link href="/estimator" className="hover:text-orange-600 transition-colors duration-200">
             Estimator
           </Link>
-          <Link href="#features" className="hover:text-orange-600 transition-colors duration-200">
+          <Link href="/" className="hover:text-orange-600 transition-colors duration-200">
             Features
           </Link>
           <Link href="/contact" className="hover:text-orange-600 transition-colors duration-200">
